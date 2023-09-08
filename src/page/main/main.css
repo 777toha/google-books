@@ -1,0 +1,49 @@
+.main>h4 {
+    text-align: center;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    margin: 0 100px;
+    max-width: 100%;
+}
+
+.main__book {
+    background-color: lightgrey;
+    max-width: 250px;
+}
+
+.main__img {
+    margin: 10px auto;
+    display: flex;
+    width: 128px;
+    height: 182px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main__text-container {
+    margin: 10px 10px 0;
+}
+
+.main__subject {
+    opacity: 0.6;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.main__title {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    max-height: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main__subtitle {
+    opacity: 0.6;
+    font-size: 14px;
+}

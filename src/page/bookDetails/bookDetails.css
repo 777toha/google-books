@@ -1,0 +1,23 @@
+.book__details {
+    display: flex;
+}
+
+.book__details-img {
+    padding: 50px 100px;
+    background-color: lightgrey;
+}
+
+.book__details-text {
+    margin: auto 50px;
+}
+
+.book__details-text>div{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.book__details-text>p{
+    opacity: .5;
+    text-decoration: underline;
+}
