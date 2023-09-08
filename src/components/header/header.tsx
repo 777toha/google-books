@@ -61,7 +61,7 @@ const Header = () => {
                         </select>
                     </div>
 
-                    <button type="submit">Search</button>
+                    <button type="submit" disabled={!searchText}>Search</button>
                 </form>
             </div>
     )
