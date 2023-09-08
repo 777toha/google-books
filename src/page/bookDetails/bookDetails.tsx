@@ -12,7 +12,7 @@ const BookDetails = () => {
     return (
         <div className='book__details'>
             <div className='book__details-img'>
-                <img src={book.volumeInfo.imageLinks?.thumbnail} alt="img" width={400} height={600} />
+                <img src={book.volumeInfo.imageLinks?.thumbnail} alt="img" />
             </div>
             <div className='book__details-text'>
                 <h4>{book.volumeInfo.categories}</h4>
