@@ -7,8 +7,8 @@ const Main = () => {
 
     return (
         <div className='main'>
-            <h4>{`Found ${books.length} result`}</h4>
-            <div className='main__container'>{books.map((book, index) => (
+            <h4>{`Found ${books?.length} result`}</h4>
+            <div className='main__container'>{books?.map((book, index) => (
                 <div key={index} className='main__book'>
                     <Link to={`/book/${index}`}>
                         <img
